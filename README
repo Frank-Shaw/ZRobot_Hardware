@@ -4,6 +4,20 @@ Description:
 
 Hardware projects are based on Vivado 2014.2
 
+Speed_PI:
+=========
+Speed_PI是一个闭环IP核
+pid_ctrl_HLS_2014-08-03-18.59.zip:
+PID控制器的HLS实现。使用在小车的闭环控制。
+edit_Motor_Controller_IP_2014-08-28-11.46.zip:
+PID控制器的IP封装工程。实现小车闭环控制。
+MotorController_IPAddress.xlsx:
+寄存器编号件。
+zybo_gpio_demo.zip：
+仅加入此闭环IP的测试工程。
+
+
+
 Ultrasonic:
 ===========
 超声波返回参数说明：
