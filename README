@@ -1,0 +1,13 @@
+
+Description:
+============
+
+Hardware projects are based on Vivado 2014.2
+
+Ultrasonic:
+===========
+超声波返回参数说明：
+在测距时，返回值为echo的测量周期数，测量精度为1us。
+如果要将返回值转换为mm，转换公式为0.0017 * 返回值。
+
+注：超声波计算公式：340（声速） * echo高电平时间 / 2  单位：m
