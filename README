@@ -2,7 +2,7 @@
 Description:
 ============
 
-Hardware projects are based on Vivado 2014.2
+Hardware projects based on Vivado 2014.2
 
 Speed_PI:
 =========
@@ -16,6 +16,13 @@ MotorController_IPAddress.xlsx:
 zybo_gpio_demo.zip：
 仅加入此闭环IP的测试工程。
 
+smartcar_assemble:
+==================
+Assemble_ZRobotIV.pdf:
+Basic assemble guide
+assemble_details.docx:
+Drain line install guide
+
 zed_smartcar_ip:
 ================
 smart car ip version 1
@@ -26,6 +33,8 @@ IP version 2 ( now using )
 Include Car Speed IP
 Include Car Ultrasonic IP
 Include SmarterCar_Motor_Ctrl IP
+ZRobotIV_regs.docx:
+all register info
 
 Ultrasonic:
 ===========
