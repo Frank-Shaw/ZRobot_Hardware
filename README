@@ -16,7 +16,16 @@ MotorController_IPAddress.xlsx:
 zybo_gpio_demo.zip：
 仅加入此闭环IP的测试工程。
 
+zed_smartcar_ip:
+================
+smart car ip version 1
 
+zybo_smartcat_ip:
+=================
+IP version 2 ( now using )
+Include Car Speed IP
+Include Car Ultrasonic IP
+Include SmarterCar_Motor_Ctrl IP
 
 Ultrasonic:
 ===========
@@ -25,3 +34,23 @@ Ultrasonic:
 如果要将返回值转换为mm，转换公式为0.0017 * 返回值。
 
 注：超声波计算公式：340（声速） * echo高电平时间 / 2  单位：m
+
+Vivado Project:
+===============
+zrobotIV8_28.zip:
+Create in 2014.8.28
+Contains:
+    GPIO sw led
+    	led data 0x41200000
+	led dir  0x41200004
+    	sw data  0x41200008
+	sw dir 	 0x41200012
+    GPIO optical JD PMOD4
+    	0x41210000
+    Ultrasonic JE PMOD5
+    	0x43c10000
+	start 0x43c10000 <- 1
+	echo1 status 0x43c10001
+	echo2 status 0x43c10002
+	echo3 status 0x43c10003
+    PWM JC PMOD3
