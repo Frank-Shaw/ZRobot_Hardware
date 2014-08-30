@@ -48,9 +48,23 @@ Contains:
     GPIO optical JD PMOD4
     	0x41210000
     Ultrasonic JE PMOD5
-    	0x43c10000
-	start 0x43c10000 <- 1
-	echo1 status 0x43c10001
-	echo2 status 0x43c10002
-	echo3 status 0x43c10003
+    	status 0x43c10000
+	start  0x43c10000 <- 1
+	echo1  status = status & 0x2
+	echo2  status = status & 0x4
+	echo3  status = status & 0x8 
+	echo1  value  = 0x43c10004
+	echo2  value  = 0x43c10008
+	echo3  value  = 0x43c10012
     PWM JC PMOD3
+        left address  0x43C01000
+        right address 0x43C02000
+	CTRL_OFFSET		 0x0	
+	IN_SPEED_SET_OFFSET	 0x4
+	IN_KP_PARAM_OFFSET	 0x8
+	IN_KI_PARAM_OFFSET	 0xC
+	IN_PID_OUT_MAX_OFFSET	 0x10
+	IN_PID_OUT_MIN_OFFSET	 0x14
+	IN_PID_UI_LIMIT_OFFSET	 0x18
+	RESET_OFFSET		 0x38
+	OUT_CUR_SPEED_OFFSET	 0x3c
