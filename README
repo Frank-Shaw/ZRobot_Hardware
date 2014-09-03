@@ -50,10 +50,10 @@ zrobotIV8_28.zip:
 Create in 2014.8.28
 Contains:
     GPIO sw led
-    	led data 0x41200000
-	led dir  0x41200004
-    	sw data  0x41200008
-	sw dir 	 0x41200012
+    	sw data 0x41200000
+	sw dir  0x41200004
+    	led data  0x41200008
+	led dir   0x41200012
     GPIO optical JD PMOD4
     	0x41210000
     Ultrasonic JE PMOD5
