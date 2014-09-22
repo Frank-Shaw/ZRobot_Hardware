@@ -27,7 +27,7 @@ zed_smartcar_ip:
 ================
 smart car ip version 1
 
-zybo_smartcat_ip:
+CAR_Sources:
 =================
 IP version 2 ( now using )
 Include Car Speed IP
